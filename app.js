@@ -38,6 +38,6 @@ app.get("/", (req, res) => {
 
   app.listen(process.env.PORT || 5000, () => {
     console.log(
-      `SERVER IS RUNNING ON PORT 5000 || ENV PORT : ${process.env.NODE_ENV !== 'production' ? 'localhost' : '0.0.0.0'}`
+      `SERVER IS RUNNING ON PORT 5000 || ENV PORT : ${process.env.PORT}`
     );
   });
